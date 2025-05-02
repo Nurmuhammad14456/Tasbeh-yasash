@@ -1,0 +1,62 @@
+@font-face {
+  font-family: Time;
+  src: url(/font/digital-7.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  font-size: 50px;
+  background-image: url(/assets/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9e9e9e; /* oltin sariq */
+  font-family: "Orbitron", sans-serif; /* zamonaviy font */
+  text-shadow: 0 0 20px #3f4140, 0 0 40px #c7c7c7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Time;
+}
+
+.phone-nmber {
+  font-size: 9vw;
+  letter-spacing: 10px;
+}
+
+.btn {
+  /* width: 200px;
+  height: 70px;
+  border-radius: 25px;
+  border: none;
+  font-size: 15px;
+  background: rgb(65, 65, 65);
+  font-family: sans-serif; */
+  margin-top: 130px;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  height: 60px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  transition: all 0.3s ease;
+}
+.btn:active {
+  transform: scale(0.9);
+  background: #3f4140;
+}

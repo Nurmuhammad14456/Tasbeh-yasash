@@ -1,0 +1,40 @@
+@font-face {
+  font-family: Time;
+  src: url(/font/digital-7.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  font-size: 80px;
+  background-image: url(/assets/6191107.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff; /* oltin sariq */
+  font-family: "Orbitron", sans-serif; /* zamonaviy font */
+  text-shadow: 0 0 20px #3f4140, 0 0 40px #c7c7c7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Time;
+}
+
+.time {
+  font-size: 14vw;
+  font-weight: 900;
+}
+
+.day,
+.deta {
+  font-size: 2vw;
+  letter-spacing: 3px;
+}
